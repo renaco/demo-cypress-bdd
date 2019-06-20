@@ -1,0 +1,10 @@
+root = true
+
+[*.json]
+indent_size = 2
+
+[*.js]
+indent_size = 2
+
+[*.feature]
+indent_size = 2
