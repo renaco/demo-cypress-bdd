@@ -1,7 +1,7 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
- 
+
 Given('visit baidu', () => {
-  cy.visit('')
+  cy.visit('');
 })
  
 When('search {string} via baidu', () => {
