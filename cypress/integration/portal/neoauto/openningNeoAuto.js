@@ -3,10 +3,10 @@ import { Given, Then } from 'cypress-cucumber-preprocessor/steps';
 const url = "https://neoauto.com/";
 const titlePortal = "Compra y Venta de autos y motos | NeoAuto"
 
-Given('I need open NeoAuto portal', () => {
+Given('Abro el portal NeoAuto', () => {
   cy.visit(url);
 });
 
-Then('I will see "Compra y Venta de autos y motos | NeoAuto" in title', () => {
+Then('Debe tener el texto "Compra y Venta de autos y motos | NeoAuto" en el titulo', () => {
   cy.title().should('eq', titlePortal);
 })
