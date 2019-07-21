@@ -8,3 +8,6 @@ indent_size = 2
 
 [*.feature]
 indent_size = 2
+
+[Makefile]
+indent_size = 2

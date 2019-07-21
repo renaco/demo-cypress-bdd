@@ -1,7 +1,10 @@
-start: # Start cypress
+install: ## Install dependencies # make install
+	npm install
+
+start: ## Start cypress # make start
 	npm run open
 
-test: # Run test
+test: ## Run test # make test
 	npm run test
 	
 ## Target Help ##
